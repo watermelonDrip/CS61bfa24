@@ -1,6 +1,8 @@
 package bomb;
 
 import common.IntList;
+import edu.princeton.cs.algs4.In;
+import org.eclipse.jetty.util.security.Password;
 
 public class BombMain {
     public static void answers(String[] args) {
@@ -14,10 +16,11 @@ public class BombMain {
             b.phase0("39291226");
         }
         if (phase >= 1) {
-            b.phase1(null); // Figure this out too
+           // IntList password = new IntList(0, new IntList(9, new IntList(3, new IntList(0,new IntList(8, null)))));
+            b.phase1(new IntList(0, new IntList(9, new IntList(3, new IntList(0,new IntList(8, null)))))); // Figure this out too
         }
         if (phase >= 2) {
-            b.phase2("Figure this out. I wonder where the phases are defined...");
+            b.phase2("793227803");
         }
     }
 }
